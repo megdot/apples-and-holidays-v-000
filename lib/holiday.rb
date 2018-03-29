@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
-  holiday_hash[:winter].collect do |holiday, supplies|
+  holiday_hash[:winter].collect do |supplies|
       supplies.flatten
     end
 end
